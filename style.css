@@ -1,0 +1,116 @@
+body {
+  background: #f6f5f4;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  box-sizing: border-box;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro",
+    "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.form {
+  border: 2px solid #c2c2c2;
+  border-radius: 3px;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form__container {
+  margin: 80px auto;
+  width: 980px;
+}
+
+.form__title {
+  color: #333;
+  font-size: 30px;
+  text-align: center;
+}
+
+.form__input {
+  border: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: block;
+  font-size: 20px;
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form__input::placeholder {
+  opacity: .6;
+  font-size: 14px;
+}
+
+.btn {
+  background: #27ac37;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+  margin: 15px 0;
+  width: 100%;
+}
+
+.showPass__wrap {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  margin: 15px 0 10px;
+}
+
+.showPass__card {
+  background: #fff;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5px;
+  width: calc((100% / 3) - 4px);
+  overflow: hidden;
+}
+
+.showPass {
+  margin: 0;
+  text-align: center;
+}
+
+/* Error Message */
+.err-msg {
+  display: block;
+  color: #ff0e0e;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width:767px) {
+  .form__container {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .form {
+    width: 75%;
+  }
+
+  .form__title {
+    font-size: 26px;
+  }
+
+  .showPass__card {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .showPass {
+    font-size: 20px;
+  }
+
+  .btn {
+    height: 60px;
+    line-height: 60px;
+  }
+}
