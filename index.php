@@ -47,9 +47,9 @@ if (!empty($_POST)) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- OGPの設定 -->
-  <meta property="og:title" content="password-generator">
+  <meta property="og:title" content="パスワード生成ツールです">
   <meta property="og:type" content="website">
-  <meta property="og:description" content="パスワード生成ツールです。">
+  <meta property="og:description" content="password-generator">
   <meta property="og:url" content="https://yn-it.com/password-generator/">
   <meta property="og:site_name" content="パスワード生成">
   <meta property="og:image" content="https://yn-it.com/password-generator/password-generator.png">
