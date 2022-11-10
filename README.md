@@ -5,7 +5,7 @@ PHPを使って、パスワード生成ツールを作りました。
 リンクは[こちら](https://yn-it.com/password-generator/)  
 
 ## Screenshot
-![password-generator](#password-generator.png "password-generator")  
+![password-generator](https://github.com/yn-it/password-generator/blob/main/password-generator.png "password-generator")  
 ## About  
 文字数は8桁と12桁が選べ、  
 1回で10個まで生成できるようにしました。  
