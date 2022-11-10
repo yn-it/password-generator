@@ -1,6 +1,6 @@
 # password-generator (パスワード生成ツール)
 パスワードを自前で考えるのが面倒くさいので  
-PHPを使って、パスワード生成ツールを作りました。  
+PHPを使って、簡単なパスワード生成ツールを作ってみた。  
 
 リンクは[こちら](https://yn-it.com/password-generator/)  
 
@@ -15,5 +15,8 @@ PHPを使って、パスワード生成ツールを作りました。
 
 ※レスポンシブ対応済み  
 
-
+## Coding Languages
+* HTML
+* CSS
+* PHP
 
